@@ -1,10 +1,10 @@
 # movie-recommender-system-system-
-# 🎬 Movie Recommender System
+# Movie Recommender System
 
 A **content-based movie recommendation system** built with Python and Machine Learning that suggests the top 5 similar movies for any given movie title — based on genres, keywords, cast, crew, and plot overview.
 
 
-## 📌 What is a Recommender System?
+## What is a Recommender System?
 
 A recommender system is a type of information filtering system that predicts what a user might like based on various factors. There are three main types:
 
@@ -18,7 +18,7 @@ This project implements a **Content-Based Filtering** approach.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The system follows this pipeline:
 
@@ -60,7 +60,7 @@ Raw Data → Preprocessing → Feature Extraction → Vectorization → Similari
 
 ---
 
-## 🚀 Sample Output
+## Sample Output
 
 ```python
 recommend('The Dark Knight')
@@ -94,7 +94,7 @@ recommend('Inception')
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -108,7 +108,7 @@ recommend('Inception')
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **TMDB 5000 Movie Dataset** from Kaggle — contains metadata for 5000 movies scraped from The Movie Database (TMDb).
 
@@ -130,7 +130,7 @@ Or download manually: [Kaggle Dataset Link](https://www.kaggle.com/datasets/tmdb
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 movie-recommender-system/
@@ -141,7 +141,7 @@ movie-recommender-system/
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 **1. Clone the repository**
 ```bash
@@ -163,13 +163,13 @@ jupyter notebook movierecommender.ipynb
 
 ---
 
-## 💡 Key Concepts Used
+## Key Concepts Used
 
 - **Bag of Words (BoW)** — CountVectorizer converts text tags into word frequency vectors
 - **Cosine Similarity** — Measures the angle between two vectors; closer to 1 = more similar
 - **Text Preprocessing** — Removing stop words, collapsing spaces to avoid tag ambiguity
 - **Feature Engineering** — Combining multiple metadata fields into a unified tag
 
-## 🙋‍♂️ Author
+## Author
 
 **Mowriyan** — [GitHub](https://github.com/Mowriyan-2)
